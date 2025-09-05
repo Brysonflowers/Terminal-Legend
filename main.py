@@ -192,14 +192,14 @@ def clear_screen():
 #the muisic in the background
 def play_music_background():
     while True:
-        playsound('scary-horror-trailer-150087.mp3')
+        playsound('music/scary-horror-trailer-150087.mp3')
         time.sleep(2)  # Sleep to prevent rapid looping
-        playsound('dark-horror-background-252905.mp3')
+        playsound('music/dark-horror-background-252905.mp3')
 
 #the muisc during the boss fight
 def play_music_background_boss_fight():
     while True:
-        playsound('evil_boss.mp3')
+        playsound('music/evil_boss.mp3')
 
 #text to speech functions
 def text_to_speech():
